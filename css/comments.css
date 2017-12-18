@@ -1,0 +1,79 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.breadcrumbs {
+    margin-bottom: 28px;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    display: inline-block;
+    color: #221f1f;
+    opacity: .8;
+  }
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__item-link {
+    opacity: 0.8;
+    color: #f89513;
+    font-family: "Open Sans Light";
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+.breadcrumbs__item-link_active {
+    color: #221f1f;
+    text-decoration: none;
+}
+
+.comments__title {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.45px;
+}
+
+.comments__text {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.comments__data {
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.comments_name {
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.comments__content {
+    font-weight: 300;
+    line-height: 30px;
+}
