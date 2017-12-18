@@ -1,4 +1,5 @@
 body {
     line-height: 1.42em;
     box-sizing: border-box;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
