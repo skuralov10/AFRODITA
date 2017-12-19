@@ -1,0 +1,45 @@
+.nav__icon {
+    width: 19px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav__icon_main {
+    background: url('../../img/icons/main-icon.png') 0 0 no-repeat;
+}
+
+.nav__icon_feed {
+    background: url('../../img/icons/feed-icon.png') 0 0 no-repeat;
+}
+
+.nav__icon_service {
+    background: url('../../img/icons/service-icon.png') 0 0 no-repeat;
+}
+
+.nav__text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 1.2px;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.nav__list {
+    list-style-type: none;
+}
+
+.nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}

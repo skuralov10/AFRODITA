@@ -1,0 +1,22 @@
+.footer {
+    background-color: #131415;
+    min-width: 1140px;
+    margin-top: -75px;
+}
+
+.footer__left, .footer__right, .footer__center {
+    float: left;
+    width: 33.3%;
+}
+
+.footer__left {
+    max-width: 250px;
+}
+
+.footer__right {
+    text-align: right;
+}
+
+.footer__center {
+    text-align: center;
+}

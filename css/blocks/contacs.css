@@ -1,0 +1,17 @@
+.contacs {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.contacs__phone {
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacs__time {
+    font-size: 14px;
+    color: #f89513;
+    opacity: 0.7;
+}

@@ -1,0 +1,24 @@
+.header {
+    background-color: #131415;
+}
+
+.header__left, .header__right, .header__center {
+    float: left;
+    width: 33.3%;
+}
+
+.header__left {
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+
+.header__center {
+  padding-top: 35px;
+  padding-bottom: 32px;
+}
+
+.header__right {
+    text-align: right;
+    padding-top: 21px;
+    padding-bottom: 17px;
+}

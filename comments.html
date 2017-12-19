@@ -5,12 +5,12 @@
     <title>Отзывы</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/comments.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="main_content">
+    <main class="main_content">
         <div class="container">
-            <div class="breadcrumbs">
+            <nav class="breadcrumbs">
                 <ul class="breadcrumbs__list">
                     <li class="breadcrumbs__item">
                         <a href="index.html" class="breadcrumbs__item-link">Главная</a>
@@ -19,9 +19,9 @@
                         <a href="#" class="breadcrumbs__item-link breadcrumbs__item-link_active">Отзывы</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
-        <div class="reviews"> 
+        <section class="reviews"> 
             <div class="container">
                 <div class="reviews__title">Отзывы</div>
                 <ul class="reviews__list">
@@ -70,7 +70,17 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
+
+        
+             <div class="recommendations">
+                 <h5 class="recommendations__text">Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов.
+                        Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. 
+                        <span>Ждем ваших заявок!</span></h5>
+             </div>
+
+
+
         <!-- Оставить отзыв -->
         <form action="">
             <div class="form">
@@ -78,11 +88,11 @@
                     <h3 class="form__title">Оставить отзыв</h3>
                     <div class="form__content">
                         <div class="form__row">
-                            <div class="form__input-element">
+                            <div class="form__input-element form__input-name">
                                 <label class="form__fields-title">Ваше имя</label>
                                 <input type="text" class="form__input">  
                             </div>
-                            <div class="form__input-element">
+                            <div class="form__input-element form__input-vk">
                                 <label class="form__fields-title">Ссылка на профиль VK</label>
                                 <input type="text" class="form__input">  
                             </div>
@@ -105,15 +115,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form__send-btns">
-                                <button class="form__send" type="submit">Отправить</button>
+                            <div class="form__controls">
+                                <div class="form__send-btns">
+                                    <button class="form__send" type="submit">Отправить</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </form>
-    </div>
+    </main>
 </body>
 </html>

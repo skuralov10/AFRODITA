@@ -1,0 +1,6 @@
+.banner__img {
+    width: 740px;
+    height: 486px;
+    background: url('../../img/decor/banner.jpg') center center no-repeat;
+    margin: 0 auto;
+}
