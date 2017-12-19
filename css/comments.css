@@ -45,7 +45,7 @@ ul {
     text-decoration: none;
 }
 
-.comments__title {
+.reviews__title {
     color: #221f1f;
     font-family: "Open Sans";
     font-size: 49px;
@@ -54,26 +54,58 @@ ul {
     letter-spacing: 2.45px;
 }
 
-.comments__text {
+.reviews__text {
     color: #221f1f;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 300;
 }
 
-.comments__data {
+.reviews__data {
     color: #656464;
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
 }
 
-.comments_name {
+.reviews_name {
     font-weight: 700;
     line-height: 21px;
 }
 
-.comments__content {
+.reviews__content {
     font-weight: 300;
     line-height: 30px;
+}
+
+.reviews__item {
+    border-bottom: 2px solid #f5f5f5;
+
+}
+
+.reviews__item:last-child {
+    border-bottom: none;
+}
+
+.reviews__avatar {
+    width: 160px;
+    height: 160px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+}
+
+.reviews__avatar_hanmen {
+    background: url('../img/icons/bbqf8j1xb6u-han-vi-ph-m-th.png') center center no-repeat;
+}
+
+.reviews__avatar_hanwomen {
+    background: url('../img/icons/k6uxppff8rs-han-vi-ph-m-th.png') center center no-repeat;
+}
+
+.reviews__avatar_smart {
+    background: url('../img/icons/vector-smart-object.png') center center no-repeat;
+}
+
+.reviews__avatar_scott {
+    background: url('../img/icons/kblifrq1jkg-scott-webb.png') center center no-repeat;
 }
