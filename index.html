@@ -19,28 +19,30 @@
                     </div>
                 </div>
                 <div class="header__center">
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <div class="nav__icon nav__icon_main"></div>
-                                    <div class="nav__text">Главная</div>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="comments.html" class="nav__link">
-                                    <div class="nav__icon nav__icon_feed"></div>
-                                    <div class="nav__text">Отзывы</div>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <div class="nav__icon nav__icon_service"></div>
-                                    <div class="nav__text">Услуги</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <aside class="sidebar">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="index.html" class="nav__link">
+                                        <div class="nav__icon nav__icon_main"></div>
+                                        <div class="nav__text">Главная</div>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="reviews.html" class="nav__link">
+                                        <div class="nav__icon nav__icon_feed"></div>
+                                        <div class="nav__text">Отзывы</div>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        <div class="nav__icon nav__icon_service"></div>
+                                        <div class="nav__text">Услуги</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </aside>                   
                 </div>
                 <div class="header__right">
                     <address class="contacs">
@@ -50,11 +52,11 @@
                 </div>
             </div>           
         </header>        
-        <div class="banner">                
+        <section class="banner">                
             <div class="container">
                 <div class="banner__img"></div>
             </div>                
-        </div>
+        </section>
         <main class="main-content">
             <div class="container">
                 <h2 class="main-content__title">особенности</h2>
@@ -104,9 +106,7 @@
                     <ul class="news__list">
                         <li class="news__items clearfix">
                             <div class="news__items-wrap">
-                                <div class="news__avatar">
-                                    <img src="img/icons/layer-6.png" alt="photo" class="news__avatar-pic">
-                                </div>
+                                <div class="news__avatar news__avatar-building"></div>
                                 <article class="news__text">
                                     <div class="news__data">12.10.2016</div>
                                     <div class="news__name">Похудение с помощью бодибилдинга!</div>
@@ -118,9 +118,7 @@
                         </li>
                         <li class="news__items clearfix">
                             <div class="news__items-wrap">
-                                <div class="news__avatar">
-                                    <img src="img/icons/layer-7.png" alt="photo" class="news__avatar-pic">
-                                </div>
+                                <div class="news__avatar news__avatar-infect"></div>
                                 <article class="news__text">
                                     <div class="news__data">01.02.2016</div>
                                     <div class="news__name">Заражай друзей, получай призы!</div>
@@ -132,9 +130,7 @@
                         </li>
                         <li class="news__items clearfix">
                             <div class="news__items-wrap">
-                                <div class="news__avatar">
-                                    <img src="img/icons/layer-9.png" alt="photo" class="news__avatar-pic">
-                                </div>
+                                <div class="news__avatar news__avatar-freelancer"></div>
                                 <article class="news__text">
                                     <div class="news__data">22.12.2015</div>
                                     <div class="news__name">Фрилансер? Выпрями спину!</div>
@@ -183,7 +179,7 @@
     <footer class="footer">
         <div class="container clearfix">
             <div class="footer__left">
-                <div class="author">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool</a>. Автор работы: <span class="">Куралов Станислав</span></div>
+                <div class="author__info">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="link__loftschool">LoftSchool</a>. Автор работы: <span class="author">Куралов Станислав</span></div>
             </div>
             <div class="footer__center">
                 <div class="logo">
@@ -195,19 +191,29 @@
                     <div class="social__title">Наши социальные сети</div>
                     <ul class="social__list">
                         <li class="social__items">
-                            <a href="#"><img src="img/icons/vk.png" alt="logo vk"></a>
+                            <a href="#" class="social__link">
+                                <div class="social__icons social__icons-active social__icons-vk"></div>
+                            </a>
                         </li>
                         <li class="social__items">
-                            <a href="#"><img src="img/icons/fb.png" alt="logo fb"></a>
+                            <a href="#" class="social__link">
+                                <div class="social__icons social__icons-fb"></div>
+                            </a>
                         </li>
                         <li class="social__items">
-                            <a href="#"><img src="img/icons/google.png" alt="logo google"></a>
+                            <a href="#" class="social__link">
+                                <div class="social__icons social__icons-google"></div>
+                            </a>
                         </li>
                         <li class="social__items">
-                            <a href="#"><img src="img/icons/twitter.png" alt="logo twitter"></a>
+                            <a href="#" class="social__link">
+                                <div class="social__icons social__icons-twitter"></div>
+                            </a>
                         </li>
                         <li class="social__items">
-                            <a href="#"><img src="img/icons/mail.png" alt="logo mail"></a>
+                            <a href="#" class="social__link">
+                                <div class="social__icons social__icons-mail"></div>
+                            </a>
                         </li>
                     </ul>
                 </div>

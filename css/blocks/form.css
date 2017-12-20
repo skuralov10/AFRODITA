@@ -28,6 +28,13 @@
     width: 269px;
     height: 45px;
     background-color: #ffffff;
+    opacity: 0.5;
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 54px;
+    padding-left: 10px;
 }
 
 .form__input-element {
@@ -48,6 +55,12 @@
     height: 90px;
     border: 1px solid #f89513;
     background-color: #ffffff;
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 54px;
+    padding-left: 10px;
 }
 
 .form__controls-trigger {
@@ -79,4 +92,9 @@
 .form__controls {
     display: inline-block;
     vertical-align: middle;
+}
+
+
+.form__controls-trigger:hover {
+    color: #f89513;
 }

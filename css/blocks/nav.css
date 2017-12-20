@@ -1,9 +1,20 @@
+.nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
 .nav__icon {
     width: 19px;
     height: 20px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    transition: all 0.2s;
 }
 
 .nav__icon_main {
@@ -28,18 +39,21 @@
     font-weight: 700;
     line-height: 54px;
     letter-spacing: 1.2px;
+    transition: all 0.2s;
 }
 
-.nav__link {
-    text-decoration: none;
+.nav__link:hover .nav__text {
+    color: #f89513;
 }
 
-.nav__list {
-    list-style-type: none;
-}
+.nav__link:hover .nav__icon_main {
+    background-image: url('../../img/icons/main_icon_org.png');
+  }
 
-.nav__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 25px;
-}
+.nav__link:hover .nav__icon_feed {
+    background-image: url('../../img/icons/feed_icon_org.png');
+  }
+
+  .nav__link:hover .nav__icon_service {
+    background-image: url('../../img/icons/service_icon_org.png');
+  }

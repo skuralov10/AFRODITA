@@ -9,16 +9,20 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin: 0;
 }
 
 .main-content__list {
-    text-align: center;
+    padding-left: 181px;
+    padding-bottom: 102px;
 }
 
 .main-content__items {
     display: inline-block;
-    text-align: center;
-    max-width: 195px;
+    max-width: 270px;
 }
 
 .main-content__icon_flower {
@@ -50,7 +54,6 @@
 }
 
 .main-content__info {
-    height: 152px;
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 18px;

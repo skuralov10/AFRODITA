@@ -1,7 +1,17 @@
-.author {
+.author__info {
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
+}
+
+.link__loftschool {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.author {
+    font-weight: 700;   
 }

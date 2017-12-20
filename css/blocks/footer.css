@@ -11,12 +11,13 @@
 
 .footer__left {
     max-width: 250px;
+    padding-top: 15px;
+    padding-left: 20px;
 }
 
 .footer__right {
-    text-align: right;
 }
 
 .footer__center {
-    text-align: center;
+    text-align: right;
 }
