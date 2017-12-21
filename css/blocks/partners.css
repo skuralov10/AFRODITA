@@ -1,0 +1,41 @@
+.partners__title {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.47px;
+    margin-bottom: 30px;
+    padding-top: 65px;
+}
+
+.partners__item {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+}
+
+.partners__item_flamingo {
+    background: url('../../img/icons/logo-1.png') center center no-repeat;
+}
+
+.partners__item_malibu {
+    background: url('../../img/icons/logo-2.png') center center no-repeat;
+}
+
+.partners__item_lion {
+    background: url('../../img/icons/logo-3.png') center center no-repeat;
+}
+
+.partners__item_arni {
+    background: url('../../img/icons/logo-4.png') center center no-repeat;
+}
+
+.partners__item_grif {
+    background: url('../../img/icons/logo-5.png') center center no-repeat;
+}
+
+.partners__item_atletik {
+    background: url('../../img/icons/logo-6.png') center center no-repeat;
+}
