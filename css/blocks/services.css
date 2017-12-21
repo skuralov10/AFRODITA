@@ -25,8 +25,7 @@
     text-transform: uppercase;
     letter-spacing: 0.72px;
     text-align: center;
-    /* background-color: #000000;
-    opacity: 0.52; */
+    line-height: 153px;
 }
 
 .services__info {
