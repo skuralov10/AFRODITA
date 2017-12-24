@@ -1,8 +1,8 @@
 .recommendations {
     background-image: url('../../img/decor/pattern.png');
     background-color: #131415;
-    /* width: 1100px; */
-    /* height: 171px; */
+    padding-top: 30px;
+    padding-bottom: 35px;
 }
 
 .recommendations__text {
@@ -12,5 +12,10 @@
     font-weight: 300;
     line-height: 30px;
     max-width: 636px;
-    padding: 30px 247px 34px 217px;
+    margin: 0 auto;
+}
+
+.application {
+    color: #f89513;
+    font-weight: 700;
 }

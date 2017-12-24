@@ -1,18 +1,18 @@
-.social {
-    padding-left: 170px;
-    padding-bottom: 15px;
-}
-
 .social__title {
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
-    line-height: 54px;  
+    margin-bottom: 6px;
 }
 
 .social__items {
     display: inline-block;
+    margin-left: 6px;
+}
+
+.social__items:first-child {
+    margin-left: 0;
 }
 
 .social__icons-vk {

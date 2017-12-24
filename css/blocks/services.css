@@ -5,14 +5,14 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.47px;
-    margin-bottom: 30px;
-    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 28px;
 }
 
 .services__item {
     float: left;
-    padding-left: 60px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
 }
 
 .services__avatar {
@@ -29,7 +29,7 @@
 }
 
 .services__info {
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 .services__avatar_fitness {
@@ -63,7 +63,7 @@
 .services__name {
     font-size: 18px;
     font-weight: 700;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .services__content {

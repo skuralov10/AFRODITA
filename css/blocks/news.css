@@ -6,15 +6,17 @@
     line-height: 38px;
     text-transform: uppercase;
     letter-spacing: 1.47px;
-    margin-bottom: 65px;
-    padding-top: 65px;
+    margin-top: 70px;
     text-align: center;
+}
+
+.news__list {
+    margin-top: 70px;
 }
 
 .news__items {
     margin-bottom: 30px;
     border-bottom: 1px solid #f5f5f5;
-
 }
 
 .news__items-wrap {
@@ -60,11 +62,13 @@
     color: #656464;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 14px;
 }
 
 .news__name {
     font-weight: 700;
     line-height: 21px;
+    margin-bottom: 20px;
 }
 
 .news__content {

@@ -1,8 +1,9 @@
 .form {
     width: 700px;
     background-color: #f5f5f5;
-    margin: 60px 200px;
-    padding-left: 69px;  
+    margin: 0 auto;
+    padding-left: 70px;
+    margin-top: 60px;  
 
 }
 
@@ -73,8 +74,7 @@
 }
 
 .form__send-btns {
-    padding-left: 260px;
-   
+    padding-left: 260px;   
 }
 
 .form__send {
@@ -88,6 +88,11 @@
     letter-spacing: 1.2px;
     border-radius: 7px;
 }
+
+.form__send:hover {
+    background-color: #f89513;
+}
+
 
 .form__controls {
     display: inline-block;

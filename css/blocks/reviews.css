@@ -6,6 +6,7 @@
     text-transform: uppercase;
     letter-spacing: 2.45px;
     margin-bottom: 50px;
+    margin-top: 28px;
 }
 
 .reviews__item {
@@ -19,7 +20,7 @@
 
 .reviews__items-wrap {
     display: inline-block;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .reviews__avatar_hanmen {
@@ -45,7 +46,6 @@
     border-radius: 50%;
     float: left;
     margin-right: 20px;
-
 }
 
 .reviews__text {
@@ -60,11 +60,13 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
+    margin-bottom: 6px;
 }
 
 .reviews_name {
     font-weight: 700;
     line-height: 21px;
+    margin-bottom: 20px;
 }
 
 .reviews__content {

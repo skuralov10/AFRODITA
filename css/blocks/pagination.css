@@ -1,6 +1,7 @@
 .pagination {
     text-align: center;
     margin-bottom: 65px;
+    margin-top: 50px;
 }
 
 .pagination__display {
@@ -19,6 +20,14 @@
 
 .pagination__btn {
     text-decoration: none;
+}
+
+.pagination__btn_backward {
+    color: #bdbcbc;
+}
+
+.pagination__btn_forward {
+    color: #262323;
 }
 
 .pagination__btn:hover {

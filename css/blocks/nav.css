@@ -1,7 +1,15 @@
+.nav {
+    margin-top: 15px;
+}
+
 .nav__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.nav__item:first-child {
+    margin-left: 0;
 }
 
 .nav__link {
@@ -13,8 +21,10 @@
     height: 20px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    padding-right: 17px;
     background: url('../../img/icons/sprites_nav.png') 0 0 no-repeat;
+    /* transition: .5s; */
+    /* cursor: pointer; */
 }
 
 .nav__icon_main {
@@ -37,7 +47,6 @@
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 54px;
     letter-spacing: 1.2px;
 }
 
@@ -54,5 +63,21 @@
 }
 
 .nav__link:hover .nav__icon_service {
+    background-position: -90px -10px;
+}
+
+.nav__link_active .nav__text {
+    color: #f89513;
+}
+
+.nav__link_active .nav__icon_main {
+    background-position: -10px -48px;
+}
+
+.nav__link_active .nav__icon_feed {
+    background-position: -10px -10px;
+}
+
+.nav__link_active .nav__icon_service {
     background-position: -90px -10px;
 }
