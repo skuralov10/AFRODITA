@@ -1,0 +1,39 @@
+.titelseite__img {
+    width: 1100px;
+    height: 650px;
+    background: url('../../img/decor/gym.jpg') center center no-repeat;
+    position: relative;
+}
+
+.titelseite__wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.titelseite__logo {
+    background: url('../../img/icons/title_logo.png') center center no-repeat;
+    width: 160px;
+    height: 193px;
+    margin-bottom: 40px;
+}
+
+.titelseite__btn {
+    width: 172px;
+    height: 45px;
+    background-color: #f89513;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+.titelseite__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 45px;
+}

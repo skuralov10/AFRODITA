@@ -3,8 +3,7 @@
     background-color: #f5f5f5;
     margin: 0 auto;
     padding-left: 70px;
-    margin-top: 60px;  
-
+    margin-top: 60px;
 }
 
 .form__title {
@@ -67,6 +66,7 @@
 .form__controls-trigger {
     display: inline-block;
     vertical-align: middle;
+    margin-right: 5px;
 }
 
 .form__trigger-title {
@@ -93,12 +93,55 @@
     background-color: #f89513;
 }
 
-
 .form__controls {
     display: inline-block;
     vertical-align: middle;
 }
 
+.form__radio {
+    display: none;
+}
+
+.form__radio_custom {
+    width: 12px;
+	height: 12px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+    position: relative;
+}
+
+.form__radio_custom, .form__controls-trigger {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form__radio:checked + .form__radio_custom::before {
+    content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: #f89513;
+    border-radius: 2px;
+}
+
+.form__radio:checked + .form__radio_custom::before {
+    border-radius: 50%;
+}
+
+.form__radio:checked ~ .form__trigger-title {
+    color: #f89513;
+}
+
+.form__radio_custom:hover {
+    border: 1px solid #f89513;
+}
+
+.form__radio:checked ~ .form__radio_custom {
+    border: 1px solid #f89513;
+}
 
 .form__controls-trigger:hover {
     color: #f89513;

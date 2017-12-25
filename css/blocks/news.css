@@ -28,18 +28,6 @@
     border-bottom: none;
 }
 
-.news__avatar-building {
-    background: url('../../img/icons/layer-6.png') center center no-repeat;
-}
-
-.news__avatar-infect {
-    background: url('../../img/icons/layer-7.png') center center no-repeat;
-}
-
-.news__avatar-freelancer {
-    background: url('../../img/icons/layer-9.png') center center no-repeat;
-}
-
 .news__avatar {
     width: 150px;
     height: 150px;
@@ -47,6 +35,19 @@
     overflow: hidden;
     float: left;
     margin-right: 20px;
+    background: url('../../img/icons/sprites_news.png') center center no-repeat;
+}
+
+.news__avatar-building {
+    background-position: -10px -10px;
+}
+
+.news__avatar-infect {
+    background-position: -191px -10px;
+}
+
+.news__avatar-freelancer {
+    background-position: -10px -191px;
 }
 
 .news__text {
