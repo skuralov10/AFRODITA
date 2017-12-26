@@ -127,6 +127,10 @@
     border-radius: 2px;
 }
 
+.form__controls-trigger:hover {
+    color: #f89513;
+}
+
 .form__radio:checked + .form__radio_custom::before {
     border-radius: 50%;
 }
@@ -141,8 +145,4 @@
 
 .form__radio:checked ~ .form__radio_custom {
     border: 1px solid #f89513;
-}
-
-.form__controls-trigger:hover {
-    color: #f89513;
 }
