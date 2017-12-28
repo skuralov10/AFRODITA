@@ -10,7 +10,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    animation: bounceInDown 3s;
+    animation: flash 3s;
 }
 
 .titelseite__logo {
