@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=1140, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fitness Afrodita</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600i,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -74,7 +74,7 @@
             <!-- Отзывы -->
             <section class="reviews"> 
                 <div class="container">
-                    <div class="reviews__title">Отзывы</div>
+                    <h2 class="reviews__title">Отзывы</h2>
                     <ul class="reviews__list">
                         <li class="reviews__item clearfix">
                             <div class="reviews__items-wrap">
@@ -130,14 +130,46 @@
                     </ul>
                 </div>
             </section>
+            <div class="pagination">
+                <div class="container">
+                    <div class="pagination__display">Страница 1 из 7</div>
+                    <div class="pagination__controls">
+                            <a href="#" class="pagination__btn pagination__btn_backward"> < </a>
+                        <ul class="pagination__list">
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page pagination__page_active">1</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page">2</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page">3</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page">4</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page">5</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page">6</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#" class="pagination__page">7</a>
+                            </li>           
+                        </ul>
+                        <a href="#" class="pagination__btn pagination__btn_forward"> > </a>
+                    </div>
+                </div>
+            </div> 
             <!-- Рекомендации -->
             <section class="recommendations">
                 <div class="container">
-                    <h3 class="recommendations__text">Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов.
+                    <p class="recommendations__text">Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов.
                     Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий.
-                    <span class="application">Ждем ваших заявок!</span></h3>
+                    <span class="application">Ждем ваших заявок!</span></p>
                 </div>
-            </section>  
+            </section>             
             <!-- Оставить отзыв -->
             <form action="">
                 <div class="form">
@@ -184,44 +216,12 @@
                     </div>
                 </div>
             </form>
-        </main>
-        <div class="pagination">
-            <div class="container">
-                <div class="pagination__display">Страница 1 из 7</div>
-                <div class="pagination__controls">
-                        <a href="#" class="pagination__btn pagination__btn_backward"> < </a>
-                    <ul class="pagination__list">
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page pagination__page_active">1</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page">2</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page">3</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page">4</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page">5</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page">6</a>
-                        </li>
-                        <li class="pagination__item">
-                            <a href="#" class="pagination__page">7</a>
-                        </li>           
-                    </ul>
-                    <a href="#" class="pagination__btn pagination__btn_forward"> > </a>
-                </div>
-            </div>
-        </div>
+        </main>        
     </div>
     <footer class="footer">
         <div class="container clearfix">
             <div class="footer__left">
-                <div class="author__info">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="link__loftschool">LoftSchool</a>. Автор работы: <span class="author">Куралов Станислав</span></div>
+                <div class="author">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="link__loftschool">LoftSchool</a>. Автор работы: <span class="author__name">Куралов Станислав</span></div>
             </div>
             <div class="footer__center">
                 <div class="logo">
@@ -234,7 +234,7 @@
                     <ul class="social__list">
                         <li class="social__items">
                             <a href="#" class="social__link">
-                                <div class="social__icons social__icons-active social__icons-vk"></div>
+                                <div class="social__icons social__icons-vk"></div>
                             </a>
                         </li>
                         <li class="social__items">

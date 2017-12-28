@@ -1,3 +1,7 @@
+.services {
+    margin-left: 185px;
+}
+
 .services__title {
     color: #221f1f;
     font-family: "Open Sans";
@@ -5,13 +9,13 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.47px;
-    margin-bottom: 50px;
-    margin-top: 28px;
+    margin-bottom: 32px;
+    margin-top: 8px;
 }
 
 .services__item {
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     margin-right: 60px;
 }
 
@@ -25,11 +29,19 @@
     text-transform: uppercase;
     letter-spacing: 0.72px;
     text-align: center;
-    line-height: 153px;
+    position: relative;
+}
+
+.services__avatar_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .services__info {
-    margin-top: 15px;
+    margin-top: 24px;
+    width: 253px;
 }
 
 .services__avatar_fitness {
@@ -56,14 +68,10 @@
     background: url('../../img/icons/swimming-78112-1920.png') center center no-repeat;
 }
 
-.services__info {
-    width: 250px;
-}
-
 .services__name {
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
 }
 
 .services__content {

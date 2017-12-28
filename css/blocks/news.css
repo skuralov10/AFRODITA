@@ -1,3 +1,7 @@
+.news {
+    padding-top: 66px;
+}
+
 .news__title {
     color: #221f1f;
     font-family: "Open Sans";
@@ -6,7 +10,6 @@
     line-height: 38px;
     text-transform: uppercase;
     letter-spacing: 1.47px;
-    margin-top: 70px;
     text-align: center;
 }
 

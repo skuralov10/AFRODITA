@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding-left: 70px;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .form__title {
@@ -51,7 +52,7 @@
 }
 
 .form__big-text {
-    width: 565px;
+    width: 577px;
     height: 90px;
     border: 1px solid #f89513;
     background-color: #ffffff;
@@ -67,6 +68,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .form__trigger-title {
@@ -74,7 +76,13 @@
 }
 
 .form__send-btns {
-    padding-left: 260px;   
+    padding-left: 280px;
+    border: none;   
+}
+
+.form__controls {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .form__send {
@@ -93,18 +101,13 @@
     background-color: #f89513;
 }
 
-.form__controls {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .form__radio {
     display: none;
 }
 
 .form__radio_custom {
-    width: 12px;
-	height: 12px;
+    width: 15px;
+	height: 15px;
 	border: 1px solid #ccc;
 	border-radius: 50%;
     position: relative;

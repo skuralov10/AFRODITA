@@ -3,7 +3,7 @@
     height: 486px;
     background: url('../../img/decor/banner.jpg') center center no-repeat;
     margin: 0 auto;
-    margin-top: 78px;
     margin-left: 159px;
-    margin-bottom: 58px;
+    padding-top: 78px;
+    padding-bottom: 58px;
 }

@@ -1,5 +1,7 @@
 .main-content {
     background-color: #131415;
+    padding-top: 48px;
+    padding-bottom: 96px;
 }
 
 .main-content__title {
@@ -12,13 +14,11 @@
     margin: 0;
     letter-spacing: 1.47px;
     margin-bottom: 48px;
-    padding-top: 48px;
 }
 
 .main-content__list {
     margin: 0 auto;
     max-width: 756px;
-    padding-bottom: 96px;
 }
 
 .main-content__items {

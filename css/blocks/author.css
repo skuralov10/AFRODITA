@@ -1,4 +1,4 @@
-.author__info {
+.author {
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 14px;
@@ -12,6 +12,6 @@
     color: #ffffff;
 }
 
-.author {
+.author__name {
     font-weight: 700;   
 }

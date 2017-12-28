@@ -42,10 +42,6 @@
     border-radius: 50%;
 }
 
-.social__icons-active {
-    background-color: #f89513;
-}
-
 .social__icons:hover {
     background-color: #f89513;
 }

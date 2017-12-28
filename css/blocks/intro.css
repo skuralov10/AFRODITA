@@ -20,7 +20,7 @@
     margin-bottom: 40px;
 }
 
-.titelseite__btn {
+.titelseite__link_wrap {
     width: 172px;
     height: 45px;
     background-color: #131415;
@@ -28,7 +28,7 @@
     border-radius: 5px;    
 }
 
-.titelseite__btn:hover {
+.titelseite__link_wrap:hover {
     background-color: #f89513;
 }
 

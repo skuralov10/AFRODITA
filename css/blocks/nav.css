@@ -1,10 +1,10 @@
 .nav {
-    margin-top: 15px;
+    margin-top: 17px;
 }
 
 .nav__item {
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     margin-left: 25px;
 }
 
@@ -17,8 +17,8 @@
 }
 
 .nav__icon {
-    width: 19px;
-    height: 20px;
+    width: 20px;
+    height: 18px;
     display: inline-block;
     vertical-align: middle;
     padding-right: 17px;
