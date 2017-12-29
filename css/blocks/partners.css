@@ -12,7 +12,7 @@
 
 .partners__list {
     margin-left: 115px;
-    margin-bottom: 26px;
+    margin-bottom: 122px;
 }
 
 .partners__item {
@@ -24,6 +24,7 @@
     transition: 1s;
     cursor: pointer;
     margin-top: 89px;
+    margin-bottom: -48px;
 }
 
 .partners__item:hover {

@@ -1,7 +1,8 @@
 .main-content {
     background-color: #131415;
     padding-top: 48px;
-    padding-bottom: 96px;
+    padding-bottom: 93px;
+    padding-right: 37px;
 }
 
 .main-content__title {
@@ -23,8 +24,8 @@
 
 .main-content__items {
     float: left;
-    max-width: 202px;
-    margin-right: 75px;
+    max-width: 205px;
+    margin-right: 70px;
 }
 
 .main-content__items:last-child {
@@ -59,7 +60,8 @@
     text-transform: uppercase;
     letter-spacing: 2.88px;
     text-align: center;
-    margin-top: 43px;
+    margin-top: 36px;
+    padding-left: 6px;
 }
 
 .main-content__info {
@@ -68,11 +70,12 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .main-content__text {
     text-align: center;
+    margin-bottom: 4px;
 }
 
 .main-content__features {
@@ -81,4 +84,5 @@
 
 .main-content__features_item {
     list-style: circle;
+    margin-bottom: 4px;
 }

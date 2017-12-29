@@ -2,9 +2,9 @@
     width: 700px;
     background-color: #f5f5f5;
     margin: 0 auto;
-    padding-left: 70px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-left: 97px;
+    margin-top: 44px;
+    margin-bottom: 98px;
 }
 
 .form__title {
@@ -12,8 +12,8 @@
     font-family: "Open Sans";
     font-size: 49px;
     font-weight: 700;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 51px;
+    padding-bottom: 9px;
     margin: 0;
 }
 
@@ -22,11 +22,11 @@
     font-size: 14px;
     font-weight: 300;
     color: #221f1f;
-    padding-bottom: 20px;
+    padding-bottom: 14px;
 }
 
 .form__input {
-    width: 269px;
+    width: 256px;
     height: 45px;
     background-color: #ffffff;
     opacity: 0.5;
@@ -45,15 +45,16 @@
 
 .form__fields-title {
     display: block;
+    margin-bottom: 2px;
 }
 
 .form__input-vk {
-    padding-left: 22px;
+    padding-left: 19px;
 }
 
 .form__big-text {
-    width: 577px;
-    height: 90px;
+    width: 549px;
+    height: 88px;
     border: 1px solid #f89513;
     background-color: #ffffff;
     color: #221f1f;
@@ -67,7 +68,7 @@
 .form__controls-trigger {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 27px;
     cursor: pointer;
 }
 
@@ -76,7 +77,7 @@
 }
 
 .form__send-btns {
-    padding-left: 280px;
+    padding-left: 251px;
     border: none;   
 }
 
