@@ -19,31 +19,6 @@
     margin-right: 60px;
 }
 
-.services__avatar {
-    width: 250px;
-    height: 153px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.72px;
-    text-align: center;
-    position: relative;
-}
-
-.services__avatar_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.services__info {
-    margin-top: 24px;
-    width: 253px;
-}
-
 .services__avatar_fitness {
     background: url('../../img/icons/sports-1962574-1920.png') center center no-repeat;
 }
@@ -66,6 +41,31 @@
 
 .services__avatar_pool {
     background: url('../../img/icons/swimming-78112-1920.png') center center no-repeat;
+}
+
+.services__avatar {
+    width: 250px;
+    height: 153px;
+    position: relative;
+    filter: brightness(50%);
+}
+
+.services__avatar_text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.services__info {
+    margin-top: 24px;
+    width: 253px;
 }
 
 .services__name {

@@ -46,7 +46,7 @@
     left: -9999px;
     border-radius: 5px;
     margin-left: -20px;    
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .dropdown::before {
@@ -62,7 +62,6 @@
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     margin-right: 5px;
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
 }
 
 .dropdown__item {
